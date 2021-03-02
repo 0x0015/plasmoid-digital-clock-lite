@@ -14,6 +14,10 @@
       <label>Whether seconds should be shown in the clock.</label>
       <default>false</default>
     </entry>
+    <entry name="showMilliSeconds" type="Bool">
+      <label>Whether milliseconds should be shown in the clock.</label>
+      <default>false</default>
+    </entry>
     <entry name="showDate" type="Bool">
       <label>Whether the date should be shown next to the clock.</label>
       <default>false</default>

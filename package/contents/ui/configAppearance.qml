@@ -41,6 +41,9 @@ Item {
     property alias cfg_showLocalTimezone: showLocalTimezone.checked
     property alias cfg_displayTimezoneAsCode: timezoneCodeRadio.checked
     property alias cfg_showSeconds: showSeconds.checked
+    property alias cfg_showMilliSeconds: showMilliSeconds.checked
+    
+	
 
     property alias cfg_showDate: showDate.checked
     property string cfg_dateFormat: "shortDate"
@@ -104,6 +107,11 @@ Item {
                 QtControls.CheckBox {
                     id: showSeconds
                     text: i18n("Show seconds")
+                }
+
+		QtControls.CheckBox {
+                    id: showMilliSeconds
+                    text: i18n("Show milliseconds")
                 }
 
                 QtControls.CheckBox {
